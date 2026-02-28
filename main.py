@@ -71,17 +71,17 @@ def main():
         processed_image = face_mesh.process(rgb_image)
         face_landmark_points = processed_image.multi_face_landmarks
 
-        cat_image = "assets/cat-shock.jpeg"
+        cat_image = "assets/hell-nah-cat.jpg"
         if face_landmark_points:
             face_landmark_points = face_landmark_points[0]
             if cat_tongue(face_landmark_points):
-                cat_image = "assets/cat-tongue.jpeg"
+                cat_image = "assets/laugh-cat.png"
             elif cat_shock(face_landmark_points):
-                cat_image = "assets/cat-shock.jpeg"
+                cat_image = "assets/shock-cat.jpg"
             elif cat_glare(face_landmark_points):
                 cat_image = "assets/cat-glare.jpeg"
             else:
-                cat_image = "assets/larry.jpeg"
+                cat_image = "assets/stare-cat.jpeg"
         
 
             height, width = image.shape[:2]
