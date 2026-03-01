@@ -1,5 +1,5 @@
 """
-Online Cat Mediapipe Program - MeowCV
+Online Cat Mediapipe Program - CatMemeCV
 
 
 A openCV program that detects faces and displays Tiktok cats.
@@ -116,3 +116,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
