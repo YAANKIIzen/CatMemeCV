@@ -32,7 +32,7 @@ Using your webcam and the mediapipe library, the system tracks key facial landma
 
 ### 1. Clone the repository
 ```bash
-https://github.com/YAANKIIzen/CatMemeCV.git
+git  clone https://github.com/YAANKIIzen/CatMemeCV.git
 ```
 
 ### 2. Install dependencies
